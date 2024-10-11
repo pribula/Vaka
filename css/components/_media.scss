@@ -1,0 +1,135 @@
+@media (max-width: 950px) {
+    .main_wraper {
+        .right_side {
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 701px) {
+    .main_wraper {
+        .left_side {
+            padding: 0 0 6px 35px;
+        }
+
+        .right_side {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .div1,
+            .div2 {
+                height: 210px;
+                width: 220px;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 621px) {
+    .left_side_swip {
+        display: block;
+
+        div {
+            padding-top: 6px;
+        }
+    }
+}
+
+@media (max-width: 561px) {
+    .main_wraper {
+        gap: 5px;
+
+        .left_side {
+            width: fit-content;
+            padding: 0 0 6px 0;
+            h1,p,h2 {
+                    text-align: center;
+                }
+        }
+
+    }
+}
+
+@media (max-width: 511px) {
+    .slider_wraper {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .left_side_swip {
+        display: flex;
+        margin-right: 0;
+        justify-content: center;
+        margin-top: 5px;
+
+        img {
+            width: 45px;
+            margin: 0 25px;
+        }
+    }
+
+}
+
+@media (max-width: 452px) {
+    .main_wraper .left_side .main_avatar {
+        width: 150px;
+    }
+
+}
+
+@media (max-width: 405px) {
+    .main_wraper {
+        flex-direction: column;
+
+        .right_side {
+            width: 100%;
+        }
+
+        .left_side {
+            display: flex;
+            align-items: center;
+
+            h1 {
+                text-align: center;
+            }
+
+            .main_avatar {
+                width: 130px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 362px) {
+    .main_wraper {
+        align-items: center;
+
+        .left_side {
+            flex-direction: column;
+
+            .main_avatar {
+                width: 180px;
+            }
+        }
+    }
+
+    .slider_wraper {
+        .slideshow-navigation-button {
+            width: 4rem;
+        }
+
+        .swiper-container {
+            width: 85%;
+            height: 97%;
+        }
+    }
+
+    .left_side_swip img {
+        width: 30px;
+        margin: 0 18px;
+    }
+
+}
